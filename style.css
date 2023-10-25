@@ -59,5 +59,50 @@ ul{
     color: var(--text-black-900);
     font-weight:700;
     background: red;
-
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.aside.logo a span{
+    font-family: 'Clicken Script', cursive;
+    font-family: 40px;
+}
+.aside.logo a::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: o;
+    left:0;
+}
+.aside.nav-toggler{
+    height:40px;
+    width:45px;
+    border:1px solid var(--bg-black-50);   
+}
+.aside.logo a::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top:0;
+    right:0;  
+}
+.aside.nav{
+    margin-top: 50px;
+}
+.aside.nav li{
+    margin-bottom: 30px;
+    display: block;
+}
+.aside.nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    display:block;
+    color: var(--text-black-900);
+    padding:5px 15px;
 }
