@@ -3,59 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <! --===== CSS FILES ===== -- >
-    <link rel="stylesheet" href="style.css">
-    <!--  <link rel="stylesheet" href="css/skins/color-1.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <h1>My Portfolio Website</h1>
+    <title>My Portfolio Website</title>
 </head>
+<link rel="stylesheet" href="/style.css">
 <body>
-   
-    <! --  ===== Main Container Start ===== -- >
-    <div class="main-container">
-        <div class="aside">
-            <div class="logo">
-            <a href="a"><span>V</span>ivian</a>
-            </div>
-            <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
-            </ul>
-        </div>
-        <! --  ===== Main Container End ===== -- >
-    <! --  ===== Main Content Start ===== -- >
-    <div class="content">
-        <section class="home section">
-            <div class="container">
-                <div class="row">
-                    <div class="home-info">
-                        <h3 class="hello">Hello, my name is <span class="name">Vivian Njoroge</span></h3>
-                        <h3 class="my-profession">I'm a <span class="typing">Sofware Engineer</span></h3>
-                        <p> I'm a Software Engineer with knowledge of both frontend and backend technologies.</p>
-                        <a href="#contact" class="btn hire-me"> Hire Me</a>
-                        </div>
-                        <div class="home-img">
-                            <img src="images/viv.png" alt="">
-                        </div>
-
-
-            </div>
-            
-        </section>
-    </div>
-    <! --  ===== Main Content End ===== -- >
-        
-
-     
-     <! --===== JS FILES ===== -- >
+    <div id="header"></div>
+    <div class="container"></div>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
     
-    <link src="js/script.js"></script>
+        <p>Full Stack Software Developer</p>
+        <h1>Hi, I'm <span>Vivian</span><br> From Kenya</h1>
+    </div>
+</div>
+</div>
+
+<div id="about">
+    <div class="container"></div>
+    <div class="row"></div>
+    <div class="about-col-1">
+      <!--   <img src="images/Viv.png"> -->
+    </div>
+    <div class="about-col-2">
+        <h1 class="subtitle">About me</h1>
+        <p>Full Stack Software Engineer with knowledge of both frontend and backend technologies</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link">Skills</p>
+            <p class="tab-links">Experience</p>
+            <p class="tab-links">Education</p>
+
+        </div>
+    </div>
+
+</div>
     
 </body>
 </html>
-
-
